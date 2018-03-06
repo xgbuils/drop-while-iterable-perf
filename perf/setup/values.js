@@ -1,0 +1,8 @@
+module.exports = {
+    FEW_DROP_WHILES: 3,
+    ENOUGH_DROP_WHILES: 12,
+    TOO_MUCH_DROP_WHILES: 48,
+    SMALL_SIZE: 32,
+    MEDIUM_SIZE: 1024,
+    BIG_SIZE: 32768
+}

@@ -1,0 +1,41 @@
+{
+  "name": "drop-while-iterable-perf",
+  "version": "0.1.0",
+  "description": "benchmarks for drop-while-iterable & drop-while-arraylike-iterable packages",
+  "main": "index.js",
+  "scripts": {
+    "perf": "node perf/",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgbuils/perf-drop-while-iterable.git"
+  },
+  "keywords": [
+    "benchmark",
+    "perf",
+    "drop-while-iterable"
+  ],
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com> (https://github.com/xgbuils)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgbuils/perf-drop-while-iterable/issues"
+  },
+  "benchmarkDependencies": [
+    "drop-while-iterable@0.1.0"
+  ],
+  "homepage": "https://github.com/xgbuils/perf-drop-while-iterable#readme",
+  "dependencies": {
+    "ajv": "^6.2.0",
+    "benchmark": "^2.1.4",
+    "npm-install-version": "^6.0.2",
+    "require-dir": "^0.3.2",
+    "semver": "^5.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.0"
+  },
+  "pre-commit": {
+    "run": "test"
+  }
+}
